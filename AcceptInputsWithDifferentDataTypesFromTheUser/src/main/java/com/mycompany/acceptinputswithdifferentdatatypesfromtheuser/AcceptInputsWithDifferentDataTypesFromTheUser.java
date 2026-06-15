@@ -27,7 +27,7 @@ public class AcceptInputsWithDifferentDataTypesFromTheUser{
         System.out.print("\nPlease Enter The Character Is : ");
         char character = input.next().charAt(0);
         System.out.printf("The Character Is : %c%n", character,"\n");
-        System.out.print("The String Statement Is : ");
+        System.out.print("Please Enter The String Statement Is : ");
         String str = input.next();
         System.out.printf("The String Statement Is : %s%n", str);
     }
